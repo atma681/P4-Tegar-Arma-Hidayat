@@ -9,7 +9,7 @@ main ()
 	int nim2[2][2];
 	int jml [2][2];
 	int x, y;
-	cout << "=====PERKALIAN MATRIX=====\n";
+	cout << "PERKALIAN MATRIX\n";
 	for (x = 0; x < 2; x++){
 	for (y = 0; y < 2; y++){
 		cout << "*Masukkan index matriks pertama* " << x << "," << y << " = ";
@@ -30,6 +30,6 @@ main ()
 			cout << jml [x][y] <<" ";
 		}
 		cout << endl;
-    return 0;
+        return 0;
 	}
 }
